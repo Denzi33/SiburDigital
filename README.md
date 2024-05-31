@@ -16,6 +16,7 @@ Here is a code and architecture of test internship task from Sibur Digital.
     - metric.py: the dataclass of metric.
   - main.py: the starting point of the entire program.
 - .gitignore: a gitignore file specifies intentionally untracked files that Git should ignore.
+- Task.pdf: the task that needs to be completed.
 - Dockerfile: a text document that contains all the commands a user could call on the command line to assemble an image.
 - pyproject.toml: file acts as a configuration file for packaging-related tools.
 
