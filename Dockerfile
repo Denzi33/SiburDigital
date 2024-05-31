@@ -2,11 +2,7 @@ FROM python:3.9 as builder
 
 WORKDIR /temporary
 
-COPY src .
-
-COPY pyproject.toml .
-
-COPY .env .
+COPY . /temporary
 
 RUN pip install pyproject.toml build-system
 
