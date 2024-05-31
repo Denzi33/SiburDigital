@@ -1,0 +1,25 @@
+[build-system]
+requires=["aiohttp ~= 3.9.5", "setuptools ~= 68.0.0", "typing ~= 3.10.0.0", "decouple ~= 0.0.7", "dataclasses ~= 0.8"]
+
+[project]
+readme="README.md"
+dymanic=["version"]
+version="2024.05.31"
+name="SiburDigitalTask"
+keywords=["SiburDigital"]
+requires-python="^python3.9"
+authors=[{name = "Deniz Erdogan", email = "erdogan33@mail.ru"}]
+description="It is a code and architecture of test intership task from Sibur Digital."
+classifiers = [
+                "Framework :: Aiohttp",
+                "Intended Audience :: Developers",
+                "Development Status :: 5 - Stable",
+                "Programming Language :: Python :: 3.10"
+              ]
+
+[project.optional-dependencies]
+docs=["sphinx", "pydata-sphinx-theme"]
+test=["pytest", "pytest-cov", "unittest"]
+
+[project.urls]
+Issues = "https://github.com/Denzi33/SiburDigital"
