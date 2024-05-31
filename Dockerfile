@@ -4,6 +4,10 @@ WORKDIR /temporary
 
 COPY . /temporary
 
-RUN pip install e .
+RUN pip install --upgrade pip
 
-CMD ["python", "main.py"]
+RUN pip install aiohttp==3.9.5
+
+RUN pip install e 
+
+CMD ["python", "src/main.py"]
