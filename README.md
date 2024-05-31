@@ -9,7 +9,7 @@ Here is a code and architecture of test internship task from Sibur Digital.
 - `src`: the directory of the .py files:
   - `common`: the directory of executable files:
     - `decorators.py`: the decorator file of singleton.
-    - ``storage.py``: the file for connection to storage.
+    - `storage.py`: the file for connection to storage.
     - `vabus.py`: the functionality for working with the data bus.
   - `data`: the files with data:
     - `event.py`: the dataclass of event.
