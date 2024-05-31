@@ -4,6 +4,6 @@ WORKDIR /temporary
 
 COPY . /temporary
 
-RUN pip install pyproject.toml build-system
+RUN pip install e .
 
 CMD ["python", "main.py"]
