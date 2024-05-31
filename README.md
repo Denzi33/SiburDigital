@@ -6,19 +6,19 @@ Here is a code and architecture of test internship task from Sibur Digital.
 
 ### Files 📁
 
-- src: the directory of the .py files:
-  - common: the directory of executable files:
-    - decorators.py: the decorator file of singleton.
-    - storage.py: the file for connection to storage.
-    - vabus.py: the functionality for working with the data bus.
-  - data: the files with data:
-    - event.py: the dataclass of event.
-    - metric.py: the dataclass of metric.
-  - main.py: the starting point of the entire program.
-- .gitignore: a gitignore file specifies intentionally untracked files that Git should ignore.
-- Task.pdf: the task that needs to be completed.
-- Dockerfile: a text document that contains all the commands a user could call on the command line to assemble an image.
-- pyproject.toml: file acts as a configuration file for packaging-related tools.
+- `src`: the directory of the .py files:
+  - `common`: the directory of executable files:
+    - `decorators.py`: the decorator file of singleton.
+    - ``storage.py``: the file for connection to storage.
+    - `vabus.py`: the functionality for working with the data bus.
+  - `data`: the files with data:
+    - `event.py`: the dataclass of event.
+    - `metric.py`: the dataclass of metric.
+  - `main.py`: the starting point of the entire program.
+- `.gitignore`: a gitignore file specifies intentionally untracked files that Git should ignore.
+- `Task.pdf`: the task that needs to be completed.
+- `Dockerfile`: a text document that contains all the commands a user could call on the command line to assemble an image.
+- `pyproject.toml`: file acts as a configuration file for packaging-related tools.
 
 ### Possible Metrics 📊
 
