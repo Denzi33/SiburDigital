@@ -1,7 +1,7 @@
 def singleton(class_):
-    '''
+    """
     Decorator for singleton
-    '''
+    """
 
     instances = {}
 
